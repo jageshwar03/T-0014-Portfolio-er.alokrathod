@@ -448,11 +448,81 @@ height: 130vh;
 width: 100%;
 }
 .about_header{
-
+height: 30vh;
+width: 100%;
+background-color: #f1f4fd;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
-.about_content{
-
+.about_header h2{
+ font-size: 38px;
 }
+.about_header p{
+font-size: 22px;
+}
+.about_content_box{
+height: 100vh;
+width: 100%;
+background-color: #1a4b5e;
+display: flex;
+flex-direction: row;
+}
+.about_content_box .about_content_left{
+height: 100vh;
+width: 50%;
+background-color: blueviolet;
+}
+.about_content_part{
+height: 20vh;
+width: 100%;
+}
+.about_content_part1{
+    background: #423838;
+}
+.about_content_part2{
+    background-color: cornflowerblue;
+}
+.about_content_part3{
+    background-color: darkblue; 
+}
+.about_content_part4{
+   background-color: chocolate; 
+}
+.about_content_part5{
+    background-color: brown;
+}
+
+.about_image_right{
+height: 100vh;
+width: 50%;
+background-color: rgb(255, 255, 255);
+position: relative;
+}
+.image_div{
+height: 100vh;
+width: 100%;
+}
+.image_div img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+    object-position: center;
+    position: relative;
+    right: 25px;
+}
+.threeyears_ex{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 600px;
+    left: 390px;
+    border-radius: 10px;
+}
+
+
 
 /* <!-- features css end here  -->  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
