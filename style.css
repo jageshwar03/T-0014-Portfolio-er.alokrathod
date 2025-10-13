@@ -465,33 +465,142 @@ font-size: 22px;
 .about_content_box{
 height: 100vh;
 width: 100%;
-background-color: #1a4b5e;
+background-color: #feffff;
 display: flex;
 flex-direction: row;
 }
 .about_content_box .about_content_left{
 height: 100vh;
 width: 50%;
-background-color: blueviolet;
+/* background-color: blueviolet; */
 }
 .about_content_part{
-height: 20vh;
-width: 100%;
+/* height: 20vh;
+width: 100%; */
 }
 .about_content_part1{
-    background: #423838;
+    height: 18vh;
+    width: 100%;
+    /* background: #423838; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
+.about_content_part1 p{
+padding-left: 100px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+}
+
 .about_content_part2{
-    background-color: cornflowerblue;
+    height: 18vh;
+    width: 100%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.about_content_part2 p{
+padding-left: 100px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
 }
 .about_content_part3{
-    background-color: darkblue; 
+    height: 18vh;
+    width: 100%;
+    /* background-color: darkblue;  */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.about_content_part3 p{
+padding-left: 100px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
 }
 .about_content_part4{
-   background-color: chocolate; 
+    height: 28vh;
+    width: 100%;
+   background-color: rgb(255, 255, 255); 
 }
+.about_grid{
+  display: grid;
+  grid-template-columns: 300px 300px ;
+  grid-template-rows: 90px 90px;
+  row-gap: 5px;
+  column-gap: 50px;
+  padding-left: 100px;
+  padding-top: 6px;
+  row-gap: 10px;
+}
+.about_grid_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 30px;
+    gap: 5px;
+    border: 0.1px solid gray;
+}
+.ri-team-fill{
+    font-size: 40px;
+    color: #1D4ED8;
+}
+.ri-code-s-slash-line_2{
+    font-size: 40px;
+    color: #1D4ED8;
+}
+
+.about_grid_item_1{
+/* background-color: chartreuse; */
+
+
+}
+
+
+.about_grid_item_2{
+ /* background-color: coral; */
+
+}
+
+.about_grid_item_3{
+/* background-color: cyan; */
+
+}
+
+
+
+
 .about_content_part5{
-    background-color: brown;
+    height: 18vh;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 100px;
+    gap: 20px;
+}
+
+.about_content_part5 button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+#lets_takl_btn{
+    background-color: #1D4ED8;
+    color: white;
+}
+
+#view_projects{
+    background-color: black;
+    color: white;
 }
 
 .about_image_right{
@@ -500,10 +609,12 @@ width: 50%;
 background-color: rgb(255, 255, 255);
 position: relative;
 }
+
 .image_div{
 height: 100vh;
 width: 100%;
 }
+
 .image_div img{
     height: 100%;
     width: 100%;
@@ -515,20 +626,88 @@ width: 100%;
 .threeyears_ex{
     height: 100px;
     width: 200px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 600px;
     left: 390px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-
+.threeyears_ex h1{
+    color: #1D4ED8;
+    font-size: 40px;
+}
+.threeyears_ex p{
+    color: #a1b8f5;
+}
+.threeyears_ex:hover{
+    rotate: -20deg;
+    transition: all ease-in-out 2s;
+}
 
 /* <!-- features css end here  -->  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .projects{
-
+height: 150vh;
+width: 100%;
 }
+.projects_btn_section{
+height: 30vh;
+width: 100%;
+background-color: yellow;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+.projects_btn_section h1{
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.projects_btn_section p{
+  font-size: 18px;
+  color: #a1b8f5;
+}
+.projects_card_section{
+height: 100vh;
+width: 100%;
+background-color: cyan;
+}
+.projects_more_section{
+height: 20vh;
+width: 100%;
+/* background-color: blue; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.projects_more_section button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+}
+.projects_more_section button a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+}
+.ri-github-fill_1{
+padding-right: 5px;
+}
+/* <!-- projects css end here  -->  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
 .teachingandteam{
 
 }
