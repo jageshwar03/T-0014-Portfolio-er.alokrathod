@@ -657,7 +657,7 @@ width: 100%;
 .projects_btn_section{
 height: 30vh;
 width: 100%;
-background-color: yellow;
+background-color: rgb(239, 239, 233);
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -671,30 +671,162 @@ gap: 15px;
 
 .projects_btn_section p{
   font-size: 18px;
-  color: #a1b8f5;
+  color: #7a8091;
 }
 .projects_card_section{
 height: 100vh;
 width: 100%;
 background-color: cyan;
-}
-.projects_card_section .project_image{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
 
 }
-.projects_card_section .project_about{
-
+.projects_card_section_part_1{
+    height: 100%;
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
-.projects_card_section .project_span{
-
+.projects_card_section_part_2{
+    height: 100%;
+    width: 30%;
+    background-color: #344880;
+      border-radius: 10px;
 }
-.projects_card_section .project_features_rating{
-
+.projects_card_section_part_3{
+    height: 100%;
+    width: 30%;
+    background-color: #782193;
+    border-radius: 10px;
 }
+.projects_card_section .projects_card_section_part_1 .project_image{
+height: 40vh;
+width: 100%;
+background-color: #782193;
+position: relative;
+}
+.project_image img{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ object-position: center;
+ 
+}
+.project_image .hover_box{
+height: 40vh;
+width: 100%;
+top: 0px;
+ background-color: rgba(10, 6, 6, 0.676);
+visibility: hidden;
+
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+}
+.hover_box:hover{
+    visibility: visible;
+}
+#livedemo{
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 10px;
+padding-top: 10px;
+border-radius:10px ;
+border: none;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #1D4ED8;
+}
+#sourcecode{
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 10px;
+padding-top: 10px;
+border-radius: 10px;
+font-size: 18px;
+border: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #1D4ED8;
+}
+
+
+
+
+.projects_card_section .projects_card_section_part_1 .project_about{
+height: 20vh;
+width: 100%;
+background-color: #216993;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.project_about h2{
+    letter-spacing: 7px;
+    font-size: 25px;
+    font-weight: 535;
+    padding-right: 40px
+}
+.project_about p{
+padding-left: 30px;
+padding-right: 10px;
+}
+.projects_card_section .projects_card_section_part_1 .project_span{
+height: 20vh;
+width: 100%;
+background-color: #938f21;
+padding-top: 20px;
+padding-left: 25px;
+}
+.project_span span{
+margin: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-top: 5px;
+border-radius: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.project_span span:hover{
+background-color: #1D4ED8;
+color: white;
+}
+.projects_card_section .projects_card_section_part_1 .project_features_rating{
+ height: 15vh;
+width: 100%;
+background-color: #219380;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 25px;
+padding-right: 25px;
+}
+ .ri-star-fill{
+    color: #1D4ED8;
+    padding-right: 5px;
+    font-size: 20px;
+ }
+ .ri-stackshare-line{
+color: #1D4ED8;
+padding-right: 5px;
+font-size: 20PX;
+ }
 
 .projects_more_section{
 height: 20vh;
 width: 100%;
-/* background-color: blue; */
+background-color: rgb(239, 239, 233);
 display: flex;
 flex-direction: column;
 justify-content: center;
