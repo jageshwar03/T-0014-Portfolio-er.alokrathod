@@ -676,7 +676,7 @@ gap: 15px;
 .projects_card_section{
 height: 100vh;
 width: 100%;
-background-color: cyan;
+background-color: rgb(250, 255, 255);
 display: flex;
 justify-content: center;
 align-items: center;
@@ -694,22 +694,22 @@ gap: 10px;
     align-items: center;
     gap: 8px;
 }
-.projects_card_section_part_2{
+/* .projects_card_section_part_2{
     height: 100%;
     width: 30%;
     background-color: #344880;
       border-radius: 10px;
-}
-.projects_card_section_part_3{
+} */
+/* .projects_card_section_part_3{
     height: 100%;
     width: 30%;
     background-color: #782193;
     border-radius: 10px;
-}
+} */
 .projects_card_section .projects_card_section_part_1 .project_image{
 height: 40vh;
 width: 100%;
-background-color: #782193;
+/* background-color: #782193; */
 position: relative;
 }
 .project_image img{
@@ -732,7 +732,7 @@ visibility: hidden;
  align-items: center;
  gap: 20px;
 }
-.hover_box:hover{
+ .projects_card_section:hover .hover_box{
     visibility: visible;
 }
 #livedemo{
@@ -764,7 +764,7 @@ background-color: #1D4ED8;
 .projects_card_section .projects_card_section_part_1 .project_about{
 height: 20vh;
 width: 100%;
-background-color: #216993;
+/* background-color: #216993; */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -784,7 +784,7 @@ padding-right: 10px;
 .projects_card_section .projects_card_section_part_1 .project_span{
 height: 20vh;
 width: 100%;
-background-color: #938f21;
+/* background-color: #938f21; */
 padding-top: 20px;
 padding-left: 25px;
 }
@@ -797,14 +797,14 @@ padding-top: 5px;
 border-radius: 10px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.project_span span:hover{
+.projects_card_section:hover span{
 background-color: #1D4ED8;
 color: white;
 }
 .projects_card_section .projects_card_section_part_1 .project_features_rating{
  height: 15vh;
 width: 100%;
-background-color: #219380;
+/* background-color: #219380; */
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -854,11 +854,129 @@ padding-right: 5px;
 
 
 .teachingandteam{
+  height: 120vh;
+  width: 100%;
+  background-color: rgb(87, 65, 88);
+}
+.teachingandteam_top{
+  height: 20vh;
+  width: 100%;
+ background-color: rgb(240, 243, 237);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teachingandteam_top h2{
+ font-size: 30px;
+ letter-spacing: 10px;
+ font-family:cursive;
+}
+
+.teachingandteam_top h3{
+   font-size: 25px;  
+   font-family:cursive;
+   letter-spacing: 2px;
+}
+/* top complete */
+.teachingandteam_middile_grid{
+  height: 90vh; 
+  width: 100%; 
+  background-color: rgb(240, 243, 237);
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(2,1fr);
+   row-gap: 10px;
+   column-gap: 10px;
+  margin: auto;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.skills{
+   /* height: 45vh; */
+   /* width: 25%;  */
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: space-around;
+   padding-left: 20px;
+   border-radius: 5px;
+}
+ .skills .icon{
+  height: 40px;
+  width: 40px;
+  /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .skills_box1:hover .icon{
+    background-color: #1D4ED8;
+    border-radius: 8px;
+ }
+
+ .ri-code-s-slash-line{
+    font-size: 30px;
+    color: #1D4ED8;
+ }
+ .skills:hover .ri-code-s-slash-line{
+    color: whitesmoke;
+ } 
+
+ .skills .techskills span{
+ margin-right: 10px;
+
+ padding-left: 12px;
+ padding-right: 12px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ border-radius: 8px;
+ }
+ .skills:hover span{
+    background-color: rgb(0, 94, 255);
+    color: white;
+ }
+/*middile grid complete */
+
+
+.teachingandteam_bottum{
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(239, 243, 243);
+  padding-top: 15px;
+  padding-left: 120px;
+}
+.view_details_cources{
+background-color: #1D4ED8;
+padding-left: 20px;
+padding-top: 12px;
+padding-right: 20px;
+padding-bottom: 12px;
+font-size: 18px;
+border-radius: 5px;
+border: none;
+display: flex;
+gap: 5px;
+}
+.view_details_cources a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+/* bottum complete */
+
+/* <!-- teachingandteam css end here  -->  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.ourteam{
 
 }
 .joinourteam{
 
 }
+
 .getintouch{
 
 }
