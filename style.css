@@ -999,12 +999,91 @@ gap: 5px;
 /* <!-- teachingandteam css end here  -->  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .ourteam{
-
+height: 120vh;
+width: 100%;
 }
+.ourteam .ourteamtext{
+    height: 20vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourteam .ourteamtext h2{
+font-size: 35px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.ourteam .ourteam_founder_cofounder_box{
+height: 100vh;
+width: 100%;
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 250px;
+/* justify-content: space-around; */
+align-items: center;
+}
+.ourteam .ourteam_founder_cofounder_box .founder_box{
+height: 75%;
+width: 25%;
+background-color: #e8e9ecd0;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 25px;
+padding-top: 25px;
+border-radius: 15px;
+}
+.ourteam .ourteam_founder_cofounder_box .founder_box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid blue;
+}
+.ourteam .ourteam_founder_cofounder_box .founder_box p{
+text-align: center;
+}
+.ourteam .ourteam_founder_cofounder_box .founder_box .p{
+    display: flex;
+    gap: 20px;
+}
+.ourteam .ourteam_founder_cofounder_box .co_founder_box{
+height: 75%;
+width: 25%;
+background-color: #e8e9ecd0;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 25px;
+padding-top: 25px;
+border-radius: 15px;
+}
+.ourteam .ourteam_founder_cofounder_box .co_founder_box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid blue;
+}
+.ourteam .ourteam_founder_cofounder_box .co_founder_box p{
+text-align: center;
+}
+.ourteam .ourteam_founder_cofounder_box .co_founder_box .p{
+ display: flex;
+    gap: 20px;
+}
+/* <!-- ourteam css end here  -->  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .joinourteam{
 
 }
-
+/* <!-- joinourteamcss end here  -->  ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .getintouch{
 
 }
