@@ -921,10 +921,38 @@ padding-right: 5px;
     font-size: 30px;
     color: #1D4ED8;
  }
+ .ri-database-2-fill{
+     font-size: 30px;
+    color: #1D4ED8;
+ }
+ .ri-smartphone-line{
+     font-size: 30px;
+    color: #1D4ED8;
+ }
+ .ri-formula{
+    font-size: 30px;
+    color: #1D4ED8;
+ }
+ .ri-flask-fill{
+    font-size: 30px;
+    color: #1D4ED8;
+ }
  .skills:hover .ri-code-s-slash-line{
     color: whitesmoke;
  } 
+ .skills:hover  .ri-database-2-fill{
+    color: whitesmoke;
+ } 
+.skills:hover  .ri-smartphone-line{
+    color: whitesmoke;
+ } 
 
+ .skills:hover   .ri-formula{
+    color: whitesmoke;
+ } 
+ .skills:hover  .ri-flask-fill{
+    color: whitesmoke;
+ } 
  .skills .techskills span{
  margin-right: 10px;
 
