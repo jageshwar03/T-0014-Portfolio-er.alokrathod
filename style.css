@@ -1013,6 +1013,31 @@ width: 100%;
 .ourteam .ourteamtext h2{
 font-size: 35px;
 font-family:Georgia, 'Times New Roman', Times, serif;
+position: relative;
+}
+.ourteam .ourteamtext h2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: -225px;
+    z-index: 10000;
+    rotate: 90deg;
+    height: 120px;
+    width: 2px;
+   background-image: radial-gradient(circle at center, #224495, #add8e6);
+}
+.ourteam .ourteamtext h2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    z-index: 10000;
+    rotate: 90deg;
+    height: 120px;
+    width: 2px;
+   background-image: radial-gradient(circle at center, #224495, #add8e6);
 }
 
 .ourteam .ourteam_founder_cofounder_box{
@@ -1036,7 +1061,11 @@ align-items: center;
 gap: 25px;
 padding-top: 25px;
 border-radius: 15px;
+position: relative;
 }
+
+
+
 .ourteam .ourteam_founder_cofounder_box .founder_box img{
     height: 200px;
     width: 200px;
@@ -1045,6 +1074,48 @@ border-radius: 15px;
     object-position: center;
     border: 5px solid blue;
 }
+
+.ourteam .ourteam_founder_cofounder_box .founder_box .img_hider{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    visibility: hidden;
+    background-color: #181209d3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #1D4ED8;
+    font-size: 30px;
+}
+.ourteam .ourteam_founder_cofounder_box .founder_box .img_hider .ri-github-fill{
+font-size: 30px
+}
+.ourteam .ourteam_founder_cofounder_box .founder_box:hover .img_hider{
+visibility: visible;
+}
+.ourteam .ourteam_founder_cofounder_box .founder_box:hover .p{
+background-color: #1D4ED8;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+border-radius: 30px;
+}
+.ourteam .ourteam_founder_cofounder_box .founder_box:hover span{
+background-color: #1D4ED8;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+border-radius: 30px;
+}
+
+
 .ourteam .ourteam_founder_cofounder_box .founder_box p{
 text-align: center;
 }
@@ -1070,6 +1141,46 @@ border-radius: 15px;
     object-fit: cover;
     object-position: center;
     border: 5px solid blue;
+}
+
+.ourteam .ourteam_founder_cofounder_box .co_founder_box .img_hider{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    visibility: hidden;
+    background-color: #181209d3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #1D4ED8;
+    font-size: 30px;
+}
+.ourteam .ourteam_founder_cofounder_box .co_founder_box .img_hider .ri-github-fill{
+font-size: 30px
+}
+.ourteam .ourteam_founder_cofounder_box .co_founder_box:hover .img_hider{
+visibility: visible;
+}
+.ourteam .ourteam_founder_cofounder_box .co_founder_box:hover .p{
+background-color: #1D4ED8;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+border-radius: 30px;
+}
+.ourteam .ourteam_founder_cofounder_box .co_founder_box:hover span{
+background-color: #1D4ED8;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+border-radius: 30px;
 }
 .ourteam .ourteam_founder_cofounder_box .co_founder_box p{
 text-align: center;
